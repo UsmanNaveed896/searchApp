@@ -148,43 +148,10 @@ const Chats = () => {
                                                     alt=""
                                                 />
                                             </div>
-                                            <div class="flex justify-start mb-4">
-                                                <img
-                                                    src="https://source.unsplash.com/vpOeXr5wmR4/600x600"
-                                                    class="object-cover h-8 w-8 rounded-full"
-                                                    alt=""
-                                                />
-                                                <div
-                                                    class="ml-2 py-3 px-4 bg-gray-400 rounded-br-3xl rounded-tr-3xl rounded-tl-xl text-white text-[12px]"
-                                                >
-                                                    happy holiday guys!
-                                                </div>
-                                            </div>
-                                            <div class="flex justify-start mb-4">
-                                                <img
-                                                    src="https://source.unsplash.com/vpOeXr5wmR4/600x600"
-                                                    class="object-cover h-8 w-8 rounded-full"
-                                                    alt=""
-                                                />
-                                                <div
-                                                    class="ml-2 py-3 px-4 bg-gray-400 rounded-br-3xl rounded-tr-3xl rounded-tl-xl text-white text-[12px]"
-                                                >
-                                                    happy holiday guys!
-                                                </div>
-                                            </div>
+                                      
+                                         
                                           
-                                            <div class="flex justify-start mb-4">
-                                                <img
-                                                    src="https://source.unsplash.com/vpOeXr5wmR4/600x600"
-                                                    class="object-cover h-8 w-8 rounded-full"
-                                                    alt=""
-                                                />
-                                                <div
-                                                    class="ml-2 py-3 px-4 bg-gray-400 rounded-br-3xl rounded-tr-3xl rounded-tl-xl text-white"
-                                                >
-                                                    happy holiday guys!
-                                                </div>
-                                            </div>
+                                          
                                         </div>
                                         <div class="fixed bottom-2 w-[64%]">
                                             <input
