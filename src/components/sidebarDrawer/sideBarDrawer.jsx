@@ -23,6 +23,7 @@ import FeatureAdds from '../FeatureAdds/featureAdds';
 import Preview from '../preview/preview';
 import CreateVirtualOffice from '../createVirtualOffice/createVirtualOffice';
 import ViewVirtualOfiice from '../viewVirtualOffice/viewVirtualOfiice';
+import Schedulers from '../scheduler/scheduler';
 const Drawer = () => {
   const [drawerOpen, setDrawerOpen] = useState(true);
   const [loading, setLoading] = useState(true);
@@ -102,16 +103,16 @@ const [showDropdown,setShowDropdown]=useState(false);
                   </div>
                 </li>
                 </Link>
-               
+                <Link to="/scheduler">
                 <li className={`cursor-pointer  ${selectedLink === 'schedules' ? 'font-bold' : ''} ${selectedLink === 'schedules' ? 'text-black' : 'text-[#757575]'}  mb-4`}
                 onClick={()=>handlePageSwitch("schedules")}
                 >
                   <div className='flex justify-start items-center gap-4'>
                   <i class="fa fa-calendar-o" aria-hidden="true"></i>
-                    <h1 className='text-[16px] text-[#757575]'>Schedules</h1>
+                    <h1 className='text-[16px]'>Schedules</h1>
                   </div>
                 </li>
-             
+                </Link>
                 <li className={`cursor-pointer  ${selectedLink === 'subscription' ? 'font-bold' : ''} ${selectedLink === 'subscription' ? 'text-black' : 'text-[#757575]'}  mb-4`}
                 onClick={()=>handlePageSwitch("subscription")}
                 >
@@ -120,6 +121,7 @@ const [showDropdown,setShowDropdown]=useState(false);
                     <h1 className='text-[#757575] text-[16px]'>Subscriptions</h1>
                   </div>
                 </li>
+               
                 <Link to="/notifications">
                 <li className={`cursor-pointer  ${selectedLink === 'notification' ? 'font-bold' : ''} ${selectedLink === 'notification' ? 'text-black' : 'text-[#757575]'}  mb-4`}
                  onClick={()=>handlePageSwitch("notification")}
@@ -269,6 +271,7 @@ const [showDropdown,setShowDropdown]=useState(false);
                 <Route exact path='/preview' element={<Preview />} />
                 <Route exact path='/createvirtualoffice' element={<CreateVirtualOffice/>} />
                 <Route exact path='/viewvirtualoffice' element={<ViewVirtualOfiice/>} />
+                <Route exact path='/scheduler' element={<Schedulers/>} />
               </Routes>
             </div>
           </div>

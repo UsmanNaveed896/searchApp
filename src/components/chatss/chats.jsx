@@ -147,11 +147,7 @@ const Chats = () => {
                                                     class="object-cover h-8 w-8 rounded-full"
                                                     alt=""
                                                 />
-                                            </div>
-                                      
-                                         
-                                          
-                                          
+                                            </div>                                                                                                                    
                                         </div>
                                         <div class="fixed bottom-2 w-[64%]">
                                             <input

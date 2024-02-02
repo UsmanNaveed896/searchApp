@@ -1,15 +1,11 @@
-import Signup from "./components/signUp/signUp";
-import Login from "./components/login/login";
 import Drawer from "./components/sidebarDrawer/sideBarDrawer";
-import Wallet from "./components/wallet/wallet";
-import { Routes, Route, useLocation, useNavigate } from 'react-router-dom'
+import CarSelling from "./components/carSelling/carSelling";
+
 export default () => {
     return (
         <>
-            {/* <Signup /> */}
+       {/* <CarSelling/> */}
             <Drawer />
-           
-            {/* <Login /> */}
         </>
     )
 

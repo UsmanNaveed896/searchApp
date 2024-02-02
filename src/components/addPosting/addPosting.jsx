@@ -8,6 +8,7 @@ import Img6 from '../../assets/photo.png'
 import ReactPannellum, { getConfig } from "react-pannellum";
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import GoogleMaps from '../../googleMap/googleMap'
 const AddPosting = () => {
     const shadow = '4px 4px 4px 0px rgba(0, 0, 0, 0.25), -1px 4px 6.3px 0px rgba(255, 255, 255, 0.50), 0px -2px 4px 0px rgba(0, 0, 0, 0.25)';
     const navigate = useNavigate();
@@ -84,7 +85,8 @@ const AddPosting = () => {
                                 <img src={Img1} alt='abc' />
                                 <p className='text-[12px] text-[#53587A]'>Jl. Gerungsari, Bulusan, Kec. Tembalang, Kota Semarang, Jawa Tengah 50277</p>
                             </div>
-                            <img className='mt-6' src={Img2} alt='abc' />
+                            <GoogleMaps/>
+                            {/* <img className='mt-6' src={Img2} alt='abc' /> */}
                         </div>
                         <div className='column3 px-2 py-2'>
                             <h1 className='text-[#252B5C] font-semibold '>Listing Photos</h1>
